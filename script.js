@@ -155,25 +155,25 @@
 
 // This is the example for understanding `this` keyword and it's behaviour
 
-// const user = {
-//     userName: "Faizan",
-//     mail: "faizan@gmail.com",
-//     age: 19,
-//     meet: function () {
-//         console.log(this.age)
-//     },
-//     otherData: {
-//         height: "5'10''",
-//         skinTone: "Brownish",
-//         hairColor: "Dark Black",
-//         greet: function () {
-//             console.log(this.height);
-//         }
-//     }
-// }
+const user = {
+    userName: "Faizan",
+    mail: "faizan@gmail.com",
+    age: 19,
+    meet: function () {
+        console.log(this.age)
+    },
+    otherData: {
+        height: "5'10''",
+        skinTone: "Brownish",
+        hairColor: "Dark Black",
+        greet: function () {
+            console.log(this.height);
+        }
+    }
+}
 
-// user.meet();
-// user.otherData.greet();
+user.meet();
+user.otherData.greet();
 
 
 // Inherited value from parent scope or surrounding scope (talking about `this` kehword behaviour as lexically bound for arrow function.)
