@@ -178,13 +178,13 @@
 
 // Inherited value from parent scope or surrounding scope (talking about `this` kehword behaviour as lexically bound for arrow function.)
 
-// const person = {
-//     name: "John",
-//     greet: function () {
-//         setTimeout(() => {
-//             console.log(this.name);
-//         }, 1000);
-//     }
-// };
+const person = {
+    name: "John",
+    greet: function () {
+        setTimeout(() => {
+            console.log(this.name);
+        }, 1000);
+    }
+};
 
-// person.greet();
+person.greet();
