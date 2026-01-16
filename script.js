@@ -1,25 +1,25 @@
-// const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
-// const [first, ...rest] = numbers;
+const [first, ...rest] = numbers;
 
-// console.log(first); // 1
-// console.log(rest);  // [2,3,4,5]
-
-
-
-
-// const nums = [1, 2, 3];
-// const squared = nums.map(n => n * n);
-
-// console.log(squared);
+console.log(first); // 1
+console.log(rest);  // [2,3,4,5]
 
 
 
-// const users = [{ user: "faizan", id: 1 }, { user: "riz", id: 3 }, { user: "sehar", id: 2 }]
 
-// const index = users.findIndex(i => i.id === 3);
+const nums = [1, 2, 3];
+const squared = nums.map(n => n * n);
 
-// console.log(index);
+console.log(squared);
+
+
+
+const users = [{ user: "faizan", id: 1 }, { user: "riz", id: 3 }, { user: "sehar", id: 2 }]
+
+const index = users.findIndex(i => i.id === 3);
+
+console.log(index);
 
 
 // const user = users.find(u => u.id === 3);
