@@ -48,7 +48,8 @@ console.log(odd);
 const cart = [
     { price: 500, qty: 2 },
     { price: 1000, qty: 1 },
-    { price: 5000, qty: 3 }
+    { price: 5000, qty: 3 },
+    { price: 500, qty: 3 }
 ]
 
 const total = cart.reduce(
