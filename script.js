@@ -45,17 +45,17 @@ console.log(odd);
 
 
 
-// const cart = [
-//     { price: 500, qty: 2 },
-//     { price: 1000, qty: 1 },
-//     { price: 5000, qty: 3 }
-// ]
+const cart = [
+    { price: 500, qty: 2 },
+    { price: 1000, qty: 1 },
+    { price: 5000, qty: 3 }
+]
 
-// const total = cart.reduce(
-//     (sum, items) => sum + items.price * items.qty, 0
-// );
+const total = cart.reduce(
+    (sum, items) => sum + items.price * items.qty, 0
+);
 
-// console.log(total);
+console.log(total);
 
 
 
