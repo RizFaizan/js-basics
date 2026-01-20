@@ -1,9 +1,9 @@
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-const [first, ...rest] = numbers;
+// const [first, ...rest] = numbers;
 
-console.log(first); // 1
-console.log(rest);  // [2,3,4,5]
+// console.log(first); // 1
+// console.log(rest);  // [2,3,4,5]
 
 
 
@@ -76,19 +76,19 @@ console.log(total);
 
 
 
-// const numbers = [1, 2, 3, 4, 5, 6];
+const numbers = [1, 2, 3, 4, 5, 6];
 
-// const [first, ...rest] = numbers;
+const [first, ...rest] = numbers;
 
-// console.log(first);
-// console.log(rest);
+console.log(first);
+console.log(rest);
 
 
-// const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
+const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
 
-// const { userName, ...otherDetails } = userDetails;
+const { userName, ...otherDetails } = userDetails;
 
-// console.log(otherDetails);
+console.log(otherDetails);
 
 
 
