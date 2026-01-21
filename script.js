@@ -51,6 +51,9 @@ const cart = [
     { price: 5000, qty: 3 },
     { price: 500, qty: 3 },
     { price: 500, qty: 3 },
+    { price: 50, qty: 2 },
+    { price: 30, qty: 6 },
+    { price: 3000, qty: 8 },
 ]
 
 const total = cart.reduce(
