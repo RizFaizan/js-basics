@@ -15,11 +15,11 @@
 
 
 
-const users = [{ user: "faizan", id: 1 }, { user: "riz", id: 3 }, { user: "sehar", id: 2 }]
+// const users = [{ user: "faizan", id: 1 }, { user: "riz", id: 3 }, { user: "sehar", id: 2 }]
 
-const index = users.findIndex(i => i.id === 3);
+// const index = users.findIndex(i => i.id === 3);
 
-console.log(index);
+// console.log(index);
 
 
 // const user = users.find(u => u.id === 3);
@@ -28,13 +28,13 @@ console.log(index);
 
 
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const even = nums.filter(u => u % 2 === 0);
-const odd = nums.filter(u => u % 2 !== 0)
+// const even = nums.filter(u => u % 2 === 0);
+// const odd = nums.filter(u => u % 2 !== 0)
 
-console.log(even);
-console.log(odd);
+// console.log(even);
+// console.log(odd);
 
 
 // const users = ['Faizan', 'Saeednan', 'Gulshan', 'Ifra'];
@@ -45,22 +45,22 @@ console.log(odd);
 
 
 
-const cart = [
-    { price: 500, qty: 2 },
-    { price: 1000, qty: 1 },
-    { price: 5000, qty: 3 },
-    { price: 500, qty: 3 },
-    { price: 500, qty: 3 },
-    { price: 50, qty: 2 },
-    { price: 30, qty: 6 },
-    { price: 3000, qty: 8 },
-]
+// const cart = [
+//     { price: 500, qty: 2 },
+//     { price: 1000, qty: 1 },
+//     { price: 5000, qty: 3 },
+//     { price: 500, qty: 3 },
+//     { price: 500, qty: 3 },
+//     { price: 50, qty: 2 },
+//     { price: 30, qty: 6 },
+//     { price: 3000, qty: 8 },
+// ]
 
-const total = cart.reduce(
-    (sum, items) => sum + items.price * items.qty, 0
-);
+// const total = cart.reduce(
+//     (sum, items) => sum + items.price * items.qty, 0
+// );
 
-console.log(total);
+// console.log(total);
 
 
 
@@ -81,19 +81,19 @@ console.log(total);
 
 
 
-const numbers = [1, 2, 3, 4, 5, 6];
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-const [first, ...rest] = numbers;
+// const [first, ...rest] = numbers;
 
-console.log(first);
-console.log(rest);
+// console.log(first);
+// console.log(rest);
 
 
-const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
+// const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
 
-const { userName, ...otherDetails } = userDetails;
+// const { userName, ...otherDetails } = userDetails;
 
-console.log(otherDetails);
+// console.log(otherDetails);
 
 
 
@@ -106,18 +106,18 @@ console.log(otherDetails);
 
 
 
-const user = {
-    userName: "Faizan",
-    age: 19,
-    otherData: {
-        cast: "Malik",
-        gender: "Male"
-    }
-};
+// const user = {
+//     userName: "Faizan",
+//     age: 19,
+//     otherData: {
+//         cast: "Malik",
+//         gender: "Male"
+//     }
+// };
 
-const { otherData: { cast, gender } } = user;
+// const { otherData: { cast, gender } } = user;
 
-console.log(cast);
+// console.log(cast);
 
 
 
@@ -151,10 +151,10 @@ console.log(cast);
 
 
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-    .then(response => response.json())
-    .then(data => console.log('Data:', data))
-    .catch(error => console.log('Error:', error));
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     .then(response => response.json())
+//     .then(data => console.log('Data:', data))
+//     .catch(error => console.log('Error:', error));
 
 
 
@@ -183,13 +183,20 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
 
 // Inherited value from parent scope or surrounding scope (talking about `this` kehword behaviour as lexically bound for arrow function.)
 
-const person = {
-    name: "John",
-    greet: function () {
-        setTimeout(() => {
-            console.log(this.name);
-        }, 1000);
-    }
-};
+// const person = {
+//     name: "John",
+//     greet: function () {
+//         setTimeout(() => {
+//             console.log(this.name);
+//         }, 1000);
+//     }
+// };
 
-person.greet();
+// person.greet();
+
+
+const newUser = { name: "Alice", age: 25 };
+
+const { name, age } = newUser;
+
+console.log(age);
