@@ -200,3 +200,16 @@ const newUser = { name: "Alice", age: 25 };
 const { name, age } = newUser;
 
 console.log(age);
+
+const newUserPref = [
+    {
+        id: 1,
+        name: 'faizan',
+        company: "mine",
+    },
+    {
+        id: 2,
+        name: 'Gulshan',
+        company: "mine",
+    },
+]
