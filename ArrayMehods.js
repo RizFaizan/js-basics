@@ -127,3 +127,9 @@ const arrOfNums = [12, 34, 56, 78, 90];
 const sumOfNums = arrOfNums.filter(n => n.toString().split('').map(Number).reduce((sum, acc) => sum + acc, 0) > 10);
 
 console.log(sumOfNums);
+
+
+const arrayOfNumbers = [12, 34, 56, 78, 90];
+const sumOfNumbers = arrOfNums.filter(n => n.toString().split('').map(Number).reduce((sum, acc) => sum + acc, 0) > 10);
+
+console.log(sumOfNumbers);
