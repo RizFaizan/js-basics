@@ -28,6 +28,12 @@ const novels = [
     { title: "1984", pages: 328 }
 ];
 
+const Dictionaries = [
+    { title: "Harry Potter", pages: 300 },
+    { title: "The Hobbit", pages: 250 },
+    { title: "1984", pages: 328 }
+];
+
 const booksTitle = books.map(n => n.title);
 console.log(booksTitle);
 
