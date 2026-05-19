@@ -28,13 +28,13 @@
 
 
 
-// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// const even = nums.filter(u => u % 2 === 0);
-// const odd = nums.filter(u => u % 2 !== 0)
+const even = nums.filter(u => u % 2 === 0);
+const odd = nums.filter(u => u % 2 !== 0)
 
-// console.log(even);
-// console.log(odd);
+console.log(even);
+console.log(odd);
 
 
 // const users = ['Faizan', 'Saeednan', 'Gulshan', 'Ifra'];
