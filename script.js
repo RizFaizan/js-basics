@@ -35,6 +35,7 @@ const odd = nums.filter(u => u % 2 !== 0)
 
 console.log(even);
 console.log(odd);
+console.log(even + odd);
 
 
 // const users = ['Faizan', 'Saeednan', 'Gulshan', 'Ifra'];
