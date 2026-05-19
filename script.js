@@ -90,11 +90,11 @@ console.log(total);
 // console.log(rest);
 
 
-const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
+// const userDetails = { userName: "Faizan", age: 18, role: "Full-Stack Dev" };
 
-const { userName, ...otherDetails } = userDetails;
+// const { userName, ...otherDetails } = userDetails;
 
-console.log(otherDetails);
+// console.log(otherDetails);
 
 
 
