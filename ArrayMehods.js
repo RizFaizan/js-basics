@@ -8,6 +8,7 @@ const fruits = ["apple", "banana", "mango"];
 
 const upperCased = fruits.map(n => n.toUpperCase());
 console.log(upperCased);
+console.log(upperCased);
 
 
 const newNums = [10, 20, 30, 40, 50];
