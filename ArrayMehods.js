@@ -13,6 +13,7 @@ console.log(upperCased);
 console.log(upperCased);
 console.log(upperCased);
 console.log(upperCased);
+console.log(upperCased);
 
 
 const newNums = [10, 20, 30, 40, 50];
