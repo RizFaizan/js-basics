@@ -28,14 +28,14 @@
 
 
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const even = nums.filter(u => u % 2 === 0);
-const odd = nums.filter(u => u % 2 !== 0)
+// const even = nums.filter(u => u % 2 === 0);
+// const odd = nums.filter(u => u % 2 !== 0)
 
-console.log(even);
-console.log(odd);
-console.log(even + odd);
+// console.log(even);
+// console.log(odd);
+// console.log(even + odd);
 
 
 // const users = ['Faizan', 'Saeednan', 'Gulshan', 'Ifra'];
@@ -46,22 +46,22 @@ console.log(even + odd);
 
 
 
-const cart = [
-    { price: 500, qty: 2 },
-    { price: 1000, qty: 1 },
-    { price: 5000, qty: 3 },
-    { price: 500, qty: 3 },
-    { price: 500, qty: 3 },
-    { price: 50, qty: 2 },
-    { price: 30, qty: 6 },
-    { price: 3000, qty: 8 },
-]
+// const cart = [
+//     { price: 500, qty: 2 },
+//     { price: 1000, qty: 1 },
+//     { price: 5000, qty: 3 },
+//     { price: 500, qty: 3 },
+//     { price: 500, qty: 3 },
+//     { price: 50, qty: 2 },
+//     { price: 30, qty: 6 },
+//     { price: 3000, qty: 8 },
+// ]
 
-const total = cart.reduce(
-    (sum, items) => sum + items.price * items.qty, 0
-);
+// const total = cart.reduce(
+//     (sum, items) => sum + items.price * items.qty, 0
+// );
 
-console.log(total);
+// console.log(total);
 
 
 
