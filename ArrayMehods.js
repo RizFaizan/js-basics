@@ -36,6 +36,7 @@ const Dictionaries = [
 
 const booksTitle = books.map(n => n.title);
 console.log(booksTitle);
+console.log(booksTitle);
 
 
 
@@ -54,6 +55,7 @@ const result = arr.map(n => n % 2 === 0 ? n * 2 : n * 3);
 console.log(result);
 
 const arrayForm = [1, 2, 3, 4, 5];
+const trueThing = [1, 2, 3, 4, 5];
 
 const result = arr.map(n => n % 2 === 0 ? n * 2 : n * 3);
 console.log(result);
